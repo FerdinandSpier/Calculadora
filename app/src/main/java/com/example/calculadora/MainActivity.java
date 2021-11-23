@@ -29,11 +29,9 @@ public class MainActivity extends AppCompatActivity {
         AppCenter.start(getApplication(), "e7afb224-31ff-4b5f-9069-b1a9eda875e9",
                 Analytics.class, Crashes.class);
 
-        text_respuesta = findViewById(R.id.respuesta);
-
         edit_numero_uno = findViewById(R.id.numero1);
         edit_numero_dos = findViewById(R.id.numero2);
-
+text_respuesta = findViewById(R.id.respuesta);
         btn_suma = findViewById(R.id.button_suma);
         btn_suma.setOnClickListener(new View.OnClickListener() {
             @Override
